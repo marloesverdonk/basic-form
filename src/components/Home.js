@@ -1,19 +1,17 @@
 import React from 'react';
-import './App.css';
-import FormContainer from './components/FormContainer'
 
-function App() {
+function Home() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Sign up</h1>
+        <h1>Home</h1>
       </header>
       <main>
-        <FormContainer/>
+        
     </main>
     </div>
     
   );
 }
 
-export default App;
+export default Home;
